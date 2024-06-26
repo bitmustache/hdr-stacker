@@ -26,7 +26,7 @@ def create_hdr(images):
 def main():
     st.title("HDR Photo Stacker")
 
-    st.markdown(
+    st.components.v1.html(
         f"""
         <script type="text/javascript">
         {GOOGLE_ADSENSE_SCRIPT}
