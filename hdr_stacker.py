@@ -9,7 +9,9 @@ import os
 #load adsense environment variables from .env file
 load_dotenv()
 
+"""
 GOOGLE_ADSENSE_SCRIPT = os.getenv('GOOGLE_ADSENSE_SCRIPT')
+"""
 
 def load_image(image_file):
     img = Image.open(image_file)
@@ -26,9 +28,11 @@ def create_hdr(images):
 def main():
     st.title("HDR Photo Stacker")
 
+    """
     st.components.v1.html(
         GOOGLE_ADSENSE_SCRIPT
     )
+    """
 
     uploaded_files = st.file_uploader("Upload Photos", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
 
