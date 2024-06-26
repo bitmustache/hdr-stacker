@@ -27,7 +27,7 @@ def main():
     st.title("HDR Photo Stacker")
 
     st.components.v1.html(
-        {GOOGLE_ADSENSE_SCRIPT}
+        GOOGLE_ADSENSE_SCRIPT
     )
 
     uploaded_files = st.file_uploader("Upload Photos", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
