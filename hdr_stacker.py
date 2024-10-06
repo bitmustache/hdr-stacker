@@ -27,6 +27,10 @@ def create_hdr(images):
 
 def main():
     st.title("HDR Photo Stacker")
+    st.html(
+    "<p>Welcome to the HDR Photo Stacker. With this app you can stack two or more images to create HDR images.</p>")
+    st.html(
+    "<p>made with ❤️ by bitmustache apps</p>")
 
     
     # st.components.v1.html(
